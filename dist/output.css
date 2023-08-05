@@ -550,12 +550,77 @@ video {
   inset-inline-start: 0px;
 }
 
+.top-11 {
+  top: 2.75rem;
+}
+
+.top-\[\] {
+  top: ;
+}
+
+.top-\[200px\] {
+  top: 200px;
+}
+
+.top-\[00px\] {
+  top: 00px;
+}
+
+.top-\[900px\] {
+  top: 900px;
+}
+
+.top-\[500px\] {
+  top: 500px;
+}
+
+.top-\[600px\] {
+  top: 600px;
+}
+
+.top-\[800px\] {
+  top: 800px;
+}
+
+.top-\[0px\] {
+  top: 0px;
+}
+
+.top-\[750px\] {
+  top: 750px;
+}
+
+.top-\[780px\] {
+  top: 780px;
+}
+
+.top-\[7805x\] {
+  top: 7805x;
+}
+
+.top-\[785x\] {
+  top: 785x;
+}
+
+.top-\[780x\] {
+  top: 780x;
+}
+
+.top-\[78x\] {
+  top: 78x;
+}
+
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
 
 .m-auto {
   margin: auto;
+}
+
+.mx-9 {
+  margin-left: 2.25rem;
+  margin-right: 2.25rem;
 }
 
 .mt-10 {
@@ -648,6 +713,34 @@ video {
 
 .w-\[1312px\] {
   width: 1312px;
+}
+
+.w-\[90\] {
+  width: 90;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-\[fulk\] {
+  width: fulk;
+}
+
+.w-\[f\] {
+  width: f;
+}
+
+.w-\[full\] {
+  width: full;
+}
+
+.w-\[14\] {
+  width: 14;
+}
+
+.w-\[1440px\] {
+  width: 1440px;
 }
 
 .grid-cols-3 {
@@ -1081,4 +1174,20 @@ video {
 
 .hover\:underline:hover {
   text-decoration-line: underline;
+}
+
+@media (max-width: 390px) {
+  .max-\[390px\]\:flex {
+    display: flex;
+  }
+
+  .max-\[390px\]\:flex-row {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:hidden {
+    display: none;
+  }
 }
