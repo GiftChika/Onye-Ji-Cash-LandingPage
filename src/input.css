@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.list::before{
+    transform: scaleX(0);
+    transition: transform 2s ease-in-out;
+    transform-origin: right;
+}
+.list :hover::before{
+    transform: scaleX(1);
+    
+    transform-origin: left;
+}
