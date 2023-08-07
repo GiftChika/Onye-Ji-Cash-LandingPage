@@ -6,7 +6,7 @@
 @media (min-width: 375px) {
     .menu.open{
     
-        display: flex;
+        display: none;
         
     }
     .menu{
