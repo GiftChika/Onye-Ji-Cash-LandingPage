@@ -1,21 +1,26 @@
 let getBtn = document.querySelector('.getBtn');
 let menu = document.querySelector('.menu');
 let removeBtn = document.querySelector('.removeBtn');
-// let open = document.querySelector('.open')
+
 
 getBtn.addEventListener("click",function(){
     menu.classList.toggle("open");
 });
 
-let Btn = document.querySelector('.btn');
-let men = document.querySelector('.men');
-// let open = document.querySelector('.open')
-
-Btn.addEventListener("click",function(){
-    men.classList.toggle("me");
+removeBtn.addEventListener("click", function(){
+    menu.classList.toggle("open");
 });
 
+let btn = document.querySelectorAll('.btn');
+let form = document.querySelector('.form');
+let cancel =document.querySelector('#cancel')
 
-removeBtn.addEventListener("click", function(){
-    menu.classList.toggle("menu");
+btn.forEach(btns => {
+    btns.addEventListener("click", function(){
+        form.classList.toggle("open");
+    });
+     
+}); 
+cancel.addEventListener("click", () => {
+    form.classList.toggle("open");
 });
