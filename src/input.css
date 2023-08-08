@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-@media (min-width: 375px) {
+@media (min-width: 300px) {
     .open{
       display: block;
     }
